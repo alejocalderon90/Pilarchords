@@ -1,0 +1,1 @@
+Esta es una prueba de e-commerce site, mi primer sitio de e-commerce, donde aplico javaScript, SCSS, elementos de Bootstrap modificandolos a las necesidades del sitio, Git, dependencias de node y BEM.

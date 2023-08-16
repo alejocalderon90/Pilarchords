@@ -1,0 +1,12 @@
+@mixin marcas ($high, $filter, $transition){
+    height: 32px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin flex ($display, $direction, $wrap, $justify, $align){
+    display: $display;
+    flex-flow: $direction $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
