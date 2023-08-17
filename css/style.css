@@ -570,6 +570,9 @@ a {
             color: grey;
             font-size: 15px;
             padding-right: 5px; }
+          .crumbs__container__ul__li__link:hover {
+            color: blue;
+            transition: all 0.5s ease; }
 
 .titulo__guitarras {
   text-align: center;
@@ -589,7 +592,7 @@ a {
   .product__container__div {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     width: 100%; }
     .product__container__div__filter {
@@ -623,6 +626,39 @@ a {
 
 .accordion-button {
   font-size: 15px; }
+
+.product__container__div__product {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75%; }
+  .product__container__div__product__flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end; }
+
+.product__div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 15px;
+  max-height: 500px; }
+
+.product__pages__nav {
+  padding: 30px 0; }
+
+.recomendados {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: "Tilt Warp";
+  color: red; }
+  .recomendados h2 {
+    font-size: 20px; }
 
 @media screen and (max-width: 1250px) {
   .menu__container {
