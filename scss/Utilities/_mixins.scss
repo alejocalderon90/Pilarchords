@@ -10,3 +10,14 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin redes ($bg, $radius, $hg, $wd, $fontz, $padding, $bx_sh, $color){
+    background: $bg;
+    border-radius: $radius;
+    height: $hg;
+    width: $wd;
+    font-size: $fontz;
+    padding: $padding;
+    box-shadow: $bx_sh;
+    color: $color;
+}
