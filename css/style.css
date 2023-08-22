@@ -802,7 +802,9 @@ a {
   .offcanvas-start, .offcanvas-end {
     flex-direction: column;
     max-width: 350px;
-    overflow-y: auto; } }
+    overflow-y: auto; }
+  .crumbs {
+    padding-top: 350px; } }
 
 @media screen and (max-width: 503px) {
   .carousel-inner {
