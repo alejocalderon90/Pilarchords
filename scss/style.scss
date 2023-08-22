@@ -86,6 +86,7 @@
         &__signup{
             border: none;
             font-size: 15px;
+            background: none;
         }
         &__login{
             font-size: 15px;
@@ -152,13 +153,17 @@
 
 .navbar {
     width: fit-content;
+    background: none;
+}
+.container-fluid{
+    background: none;
 }
 
 .navbar-toggler {
     border: 0;
     @include flex (flex, row, wrap, center, center);
     align-content: center;
-
+    background: transparent;
     p {
         margin-bottom: 0;
         padding-left: 10px;
@@ -166,6 +171,9 @@
         font-weight: bold;
         font-size: 2rem;
     }
+}
+.navbar__toggler{
+    background: none;
 }
 
 .offcanvas-header {
@@ -698,9 +706,60 @@
     padding: 15px;
     max-height: 500px;
 }
-.product__pages__nav{
-    padding: 30px 0;
+
+.product__pages{
+    padding: 30px 50px;
+    width: 100%;
+    &__nav{
+        padding: 10px;
+    }
 }
+.pagination__ul{
+    padding: 10px;
+    width: 100%;
+    @include flex (flex, row, wrap, center, center);
+    &__list{
+        padding: 10px;
+        &__prev{
+            opacity: 0.5;
+            color: black;
+            border: 1px grey solid;
+            border-radius: 5px;
+            font-size: 2rem;
+            padding: 3px;
+        }
+        &__1{
+            color: red;
+            font-weight: bold;
+            font-size: 2rem;
+            padding: 5px 10px;
+            border: 2px red solid;
+            border-radius: 50%;
+        }
+        &__number{
+            color: black;
+            opacity: 0.5;
+            font-size: 2rem;
+            padding: 8px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        &__next{
+            color: black;
+            border: 1px grey solid;
+            border-radius: 5px;
+            font-size: 2rem;
+            padding: 3px;
+        }
+    }
+    &__p{
+        padding: 10px 10px 0 10px;
+    }
+}
+
+
+
 .recomendados{
     padding: 10px;
     width: 100%;
@@ -736,12 +795,19 @@
         padding: 20px 0;
     }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .header__nav__ul__container{
+        width: 100%;
+    }
+    .user__container{
+        width: 100%;
+        padding-right: 0;
+    }
     .offcanvas {
         flex-wrap: nowrap;
     }
 
-    .offcanvas-start {
+    .offcanvas-start, .offcanvas-end{
         flex-direction: column;
         max-width: 350px;
         overflow-y: auto;

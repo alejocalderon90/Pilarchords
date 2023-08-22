@@ -107,7 +107,8 @@ a {
     padding: 10px; }
     .account__div__signup {
       border: none;
-      font-size: 15px; }
+      font-size: 15px;
+      background: none; }
     .account__div__login {
       font-size: 15px;
       padding: 5px;
@@ -159,7 +160,11 @@ a {
   width: 100%; }
 
 .navbar {
-  width: fit-content; }
+  width: fit-content;
+  background: none; }
+
+.container-fluid {
+  background: none; }
 
 .navbar-toggler {
   border: 0;
@@ -167,13 +172,17 @@ a {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  background: transparent; }
   .navbar-toggler p {
     margin-bottom: 0;
     padding-left: 10px;
     font-family: "Open Sans";
     font-weight: bold;
     font-size: 2rem; }
+
+.navbar__toggler {
+  background: none; }
 
 .offcanvas-header {
   justify-content: flex-end; }
@@ -710,8 +719,50 @@ a {
   padding: 15px;
   max-height: 500px; }
 
-.product__pages__nav {
-  padding: 30px 0; }
+.product__pages {
+  padding: 30px 50px;
+  width: 100%; }
+  .product__pages__nav {
+    padding: 10px; }
+
+.pagination__ul {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+  .pagination__ul__list {
+    padding: 10px; }
+    .pagination__ul__list__prev {
+      opacity: 0.5;
+      color: black;
+      border: 1px grey solid;
+      border-radius: 5px;
+      font-size: 2rem;
+      padding: 3px; }
+    .pagination__ul__list__1 {
+      color: red;
+      font-weight: bold;
+      font-size: 2rem;
+      padding: 5px 10px;
+      border: 2px red solid;
+      border-radius: 50%; }
+    .pagination__ul__list__number {
+      color: black;
+      opacity: 0.5;
+      font-size: 2rem;
+      padding: 8px; }
+      .pagination__ul__list__number:hover {
+        opacity: 1; }
+    .pagination__ul__list__next {
+      color: black;
+      border: 1px grey solid;
+      border-radius: 5px;
+      font-size: 2rem;
+      padding: 3px; }
+  .pagination__ul__p {
+    padding: 10px 10px 0 10px; }
 
 .recomendados {
   padding: 10px;
@@ -740,10 +791,15 @@ a {
   .nosotros__text {
     padding: 20px 0; } }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .header__nav__ul__container {
+    width: 100%; }
+  .user__container {
+    width: 100%;
+    padding-right: 0; }
   .offcanvas {
     flex-wrap: nowrap; }
-  .offcanvas-start {
+  .offcanvas-start, .offcanvas-end {
     flex-direction: column;
     max-width: 350px;
     overflow-y: auto; } }
