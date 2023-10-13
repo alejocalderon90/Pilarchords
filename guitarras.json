@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "imagen": "./img-guitarras/epiphone-cherry-caoba-hollow.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Eléctrica Epiphone Eies335chnh1 Es-335 Cherry Caoba",
+        "clase": "STARCASTER",
+        "precio": "710000"
+    },
+    {
+        "id": "2",
+        "imagen": "./img-guitarras/epiphone-golden.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Eléctrica Epiphone EILS5MGNH1 Les Paul Standard 50s Metallic Gold",
+        "clase": "LES PAUL",
+        "precio": "767400"
+    },
+    {
+        "id": "3",
+        "imagen": "./img-guitarras/epiphone-redorange.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Eléctrica Epiphone EILS6ITNH1 Les Paul Standard 60s Iced Tea",
+        "clase": "LES PAUL",
+        "precio": "767400"
+    },
+    {
+        "id": "4",
+        "imagen": "./img-guitarras/epiphone-white.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Electrica EPIPHONE ENLPCWMGNH1 Les Paul STUDIO Alpine White",
+        "clase": "LES PAUL",
+        "precio": "530700"
+    },
+    {
+        "id": "5",
+        "imagen": "./img-guitarras/fender-sunburst.webp",
+        "titulo": "FENDER",
+        "descripcion": "Guitarra Electrica Fender 011-8010-712 Stratocaster American Ultra",
+        "clase": "STRATOCASTER",
+        "precio": "2400800"
+    },
+    {
+        "id": "6",
+        "imagen": "./img-guitarras/fender-tele-blue.webp",
+        "titulo": "FENDER",
+        "descripcion": "Guitarra Electrica Fender 014-9893-302 Vintera 60's Tele Modified Azul Lake Placid",
+        "clase": "TELECASTER",
+        "precio": "1530600"
+    },
+    {
+        "id": "7",
+        "imagen": "./img-guitarras/fender-tele-red.webp",
+        "titulo": "FENDER",
+        "descripcion": "Guitarra Electrica Fender 014-9852-340 Vintera 50's telecaster Red Fest",
+        "clase": "TELECASTER",
+        "precio": "1410200"
+    },
+    {
+        "id": "8",
+        "imagen": "./img-guitarras/sg-black.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Eléctrica Epiphone Eiscebgh1 Sg Custom Eb Black",
+        "clase": "SG",
+        "precio": "750700"
+    },
+    {
+        "id": "9",
+        "imagen": "./img-guitarras/sg-red.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Eléctrica Epiphone Eissbchnh1 Sg Standard Cherry",
+        "clase": "SG",
+        "precio": "591000"
+    },
+    {
+        "id": "10",
+        "imagen": "./img-guitarras/SG-white.webp",
+        "titulo": "EPIPHONE",
+        "descripcion": "Guitarra Electrica EPIPHONE ES1PPSGFBNH1 SG POWER PLAYERS IB",
+        "clase": "SG",
+        "precio": "348000"
+    },
+    {
+        "id": "11",
+        "imagen": "./img-guitarras/jayturser-strato-natural.webp",
+        "titulo": "JAY TURSER",
+        "descripcion": "Guitarra Electrica Jay Turser Telecaster Natural Jt-lt-n",
+        "clase": "TELECASTER",
+        "precio": "480500"
+    },
+    {
+        "id": "12",
+        "imagen": "./img-guitarras/squier-affinity.webp",
+        "titulo": "SQUIER",
+        "descripcion": "Guitarra Eléctrica Squier Affinity Stratocaster Color Charcoal Frost Metallic",
+        "clase": "STRATOCASTER",
+        "precio": "420600"
+    }
+]

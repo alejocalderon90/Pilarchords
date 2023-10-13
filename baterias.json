@@ -1,0 +1,98 @@
+[
+    {
+        "id": "25",
+        "imagen": "./img-guitarras/SONOR.webp",
+        "titulo": "SONOR",
+        "descripcion": "Batería Sonor Aqxstudiobos 5 Cuerpos Platos + Fierros Blue Ocean Sparkle",
+        "clase": "SETS",
+        "precio": "1159252"
+    },
+    {
+        "id": "26",
+        "imagen": "./img-guitarras/GRETSCH-REDO1.webp",
+        "titulo": "GRETSCH",
+        "descripcion": "Redoblante Gretsch Renown Maple 14x5 8 Torres RN2-0514S-GN Gloss Natural",
+        "clase": "REDOBLANTES",
+        "precio": "560000"
+    },
+    {
+        "id": "27",
+        "imagen": "./img-guitarras/GRETSCH-BATA1.webp",
+        "titulo": "GRETSCH",
+        "descripcion": "Batería De 5 Cuerpos Gretsch Catalina Maple Bombo De 22",
+        "clase": "SETS",
+        "precio": "1421024"
+    },
+    {
+        "id": "28",
+        "imagen": "./img-guitarras/GRETSCH1.webp",
+        "titulo": "GRETSCH",
+        "descripcion": "Batería Acústica Gretsch Catalina Maple de 7 Cuerpos Amber Glaze - CM1-E826P-AMG",
+        "clase": "SETS",
+        "precio": "1679619"
+    },
+    {
+        "id": "29",
+        "imagen": "./img-guitarras/GRETSCH2.webp",
+        "titulo": "GRETSCH",
+        "descripcion": "Redoblante Gretsch Renown Maple 14x6,5 10 Torres RN2-6514S-STB Satin Tobacco Burst",
+        "clase": "REDOBLANTES",
+        "precio": "415900"
+    },
+    {
+        "id": "30",
+        "imagen": "./img-guitarras/YAMAHA1.webp",
+        "titulo": "YAMAHA",
+        "descripcion": "Redoblante Yamaha Rls1455 Recording Custom 14x5.5' Pulgadas Plateado",
+        "clase": "REDOBLANTES",
+        "precio": "450500"
+    },
+    {
+        "id": "31",
+        "imagen": "./img-guitarras/MAPEX-REDO1.webp",
+        "titulo": "MAPEX",
+        "descripcion": "Redoblante Bateria Mapex Mpbo3500bmb 13' Madera Herrajes 8t",
+        "clase": "REDOBLANTES",
+        "precio": "97000"
+    },
+    {
+        "id": "32",
+        "imagen": "./img-guitarras/PEARL-ARO.webp",
+        "titulo": "PEARL",
+        "descripcion": "Aro Super Hoop Pearl 10 Pulgadas 6 Torres SH-1006",
+        "clase": "SUELTOS",
+        "precio": "20000"
+    },
+    {
+        "id": "33",
+        "imagen": "./img-guitarras/PEARL-BATA1.webp",
+        "titulo": "PEARL",
+        "descripcion": "Batería Pearl Decade Maple Bombo De 22 C: Satin Brown Burst",
+        "clase": "SETS",
+        "precio": "960000"
+    },
+    {
+        "id": "34",
+        "imagen": "./img-guitarras/PEARL-BATA2.webp",
+        "titulo": "PEARL",
+        "descripcion": "Bateria Pearl Decade Maple Bombo De 22 C:ocean Galaxy Flake",
+        "clase": "SETS",
+        "precio": "804600"
+    },
+    {
+        "id": "35",
+        "imagen": "./img-guitarras/PEARL-REDO1.webp",
+        "titulo": "PEARL",
+        "descripcion": "Redoblante Pearl B1330 Effect Piccolo Bronce 8 Torres",
+        "clase": "REDOBLANTES",
+        "precio": "310200"
+    },
+    {
+        "id": "36",
+        "imagen": "./img-guitarras/PEARL-REDO2.webp",
+        "titulo": "PEARL",
+        "descripcion": "Redoblante Pearl Modern Utility Mus1455m 227 Satin Black",
+        "clase": "REDOBLANTES",
+        "precio": "200100"
+    }
+]

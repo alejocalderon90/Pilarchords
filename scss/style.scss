@@ -113,6 +113,39 @@
     padding: 10px;
 }
 
+.offcanvas-body{
+    @include flex(flex, row, wrap, center, center);
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+.total{
+    text-align: center;
+    font-size: 15px;
+}
+.btn__comprar{
+    width: 100px;
+    height: 40px;
+    background: rgb(59, 138, 59);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    &:hover{
+        background: green;
+        font-weight: bold;
+        scale: (1.1);
+        transition: all 0.5s ease;
+    }
+}
+.boton-agregar{
+    width: 100%;
+    padding: 5px;
+    color: black;
+    background-color: green;
+    border-radius: 20px;
+    border: 0;
+}
+
 .btn {
     font-family: $font_product;
     font-size: 1.5rem;
@@ -761,6 +794,7 @@
 
 
 .recomendados{
+    margin-top: 30px;
     padding: 10px;
     width: 100%;
     text-align: center;
