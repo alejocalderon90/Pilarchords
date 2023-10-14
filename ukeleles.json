@@ -1,7 +1,7 @@
 [
     {
         "id": "13",
-        "imagen": "../img-guitarras/makala1.webp",
+        "imagen": "./img-guitarras/makala1.webp",
         "titulo": "MAKALA",
         "descripcion": "Ukelele Electroacústico Soprano Makala By Kala Mk-se con equalizador color Marrón",
         "clase": "SIN FUNDA",
@@ -9,7 +9,7 @@
     },
     {
         "id": "14",
-        "imagen": "../img-guitarras/garcia1.webp",
+        "imagen": "./img-guitarras/garcia1.webp",
         "titulo": "GARCIA",
         "descripcion": "Ukelele Soprano Gracia Tapa Caoba Colores Cedro Rosa",
         "clase": "SIN FUNDA",
@@ -17,7 +17,7 @@
     },
     {
         "id": "15",
-        "imagen": "../img-guitarras/garcia2.webp",
+        "imagen": "./img-guitarras/garcia2.webp",
         "titulo": "GARCIA",
         "descripcion": "Ukelele Soprano Gracia Tapa Caoba Colores Cedro Celeste",
         "clase": "SIN FUNDA",
@@ -25,7 +25,7 @@
     },
     {
         "id": "16",
-        "imagen": "../img-guitarras/makala2.webp",
+        "imagen": "./img-guitarras/makala2.webp",
         "titulo": "MAKALA",
         "descripcion": "Ukelele Makala Concierto Pack. Mk-c/pack Caoba",
         "clase": "SIN FUNDA",
@@ -33,7 +33,7 @@
     },
     {
         "id": "17",
-        "imagen": "../img-guitarras/astonreed1.webp",
+        "imagen": "./img-guitarras/astonreed1.webp",
         "titulo": "ASTON REED",
         "descripcion": "Bajo Ukelele Aston Reed AUB07L-EA Cuerdas Aquila Caoba Con Funda",
         "clase": "CON FUNDA",
@@ -41,7 +41,7 @@
     },
     {
         "id": "18",
-        "imagen": "../img-guitarras/astonreed2.webp",
+        "imagen": "./img-guitarras/astonreed2.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU50L-21 Cuerdas Aquila Koa Con Funda",
         "clase": "CON FUNDA",
@@ -49,7 +49,7 @@
     },
     {
         "id": "19",
-        "imagen": "../img-guitarras/astonreed3.webp",
+        "imagen": "./img-guitarras/astonreed3.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU07-21 Cuerdas Aquila Caoba Con Funda",
         "clase": "CON FUNDA",
@@ -57,7 +57,7 @@
     },
     {
         "id": "20",
-        "imagen": "../img-guitarras/astonreed4.webp",
+        "imagen": "./img-guitarras/astonreed4.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU006L-21 Ideal Estudio Con Funda - Rojo Vino",
         "clase": "CON FUNDA",
@@ -65,7 +65,7 @@
     },
     {
         "id": "21",
-        "imagen": "../img-guitarras/astonreed5.webp",
+        "imagen": "./img-guitarras/astonreed5.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU006L-21 Ideal Estudio Con Funda - Marrón",
         "clase": "CON FUNDA",
@@ -81,7 +81,7 @@
     },
     {
         "id": "23",
-        "imagen": "../img-guitarras/astonreed7.webp",
+        "imagen": "./img-guitarras/astonreed7.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Rojo",
         "clase": "CON FUNDA",
@@ -89,7 +89,7 @@
     },
     {
         "id": "24",
-        "imagen": "../img-guitarras/astonreed8.webp",
+        "imagen": "./img-guitarras/astonreed8.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Verde",
         "clase": "CON FUNDA",
