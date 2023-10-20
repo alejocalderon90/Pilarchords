@@ -1,47 +1,43 @@
-const carritoArray = JSON.parse(localStorage.getItem("carritoStorage")) || []
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
-    traerProductos()
+    traerBaterias()
     renderCarrito()
 })
 
-async function traerProductos() {
+async function traerBaterias() {
     const resp = await fetch("../baterias.json")
-    const prods = await resp.json()
-    renderProductos(prods)
+    const baterias = await resp.json()
+    renderBaterias(baterias)
 }
 
-function renderProductos(productos) {
-    const divProductos = document.getElementById("contenedorDeBaterias")
-    divProductos.innerHTML = ""
-    productos.forEach((producto) => {
-        const contenedorProductos = document.createElement("div")
-        contenedorProductos.classList.add("product__div")
-        contenedorProductos.innerHTML = `
-            <img src="${producto.imagen}">
+function renderBaterias(baterias) {
+    const divBaterias = document.getElementById("contenedorDeBaterias")
+    divBaterias.innerHTML = ""
+    baterias.forEach((bateria) => {
+        const contenedorBaterias = document.createElement("div")
+        contenedorBaterias.classList.add("product__div")
+        contenedorBaterias.innerHTML = `
+            <img src="${bateria.imagen}">
             <div class="slider__product__info">
-                            <h2>${producto.titulo}</h2>
-                            <p>${producto.descripcion}</p>
+                            <h2>${bateria.titulo}</h2>
+                            <p>${bateria.descripcion}</p>
                         </div>
                         <div class="slider__product__info__precio">
                             <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$ ${producto.precio}</p>
+                            <p class="slider__product__info__precio__color">$ ${bateria.precio}</p>
                         </div>
-            <button class="boton-agregar" id="${producto.id}">AGREGAR AL CARRITO</button>
+            <button class="boton-agregar" id="${bateria.id}">AGREGAR AL CARRITO</button>
             `
-        divProductos.appendChild(contenedorProductos)
-        const btnAgregar = document.getElementById(`${producto.id}`)
-        btnAgregar.addEventListener("click", () => {
-            productoAgregado(productos, producto.id)
+        divBaterias.appendChild(contenedorBaterias)
+        const btnAgregarBateria = document.getElementById(`${bateria.id}`)
+        btnAgregarBateria.addEventListener("click", () => {
+            bateriaAgregada(baterias, bateria.id)
         })
     })
 }
 
-function productoAgregado(productos, id) {
-    const productoSeleccionado = productos.find(producto => producto.id === id)
-    carritoArray.push(productoSeleccionado)
+function bateriaAgregada(baterias, id) {
+    const bateriaSeleccionada = baterias.find(bateria => bateria.id === id)
+    carritoArray.push(bateriaSeleccionada)
     localStorage.setItem("carritoStorage", JSON.stringify(carritoArray))
 
     Swal.fire({
@@ -53,67 +49,3 @@ function productoAgregado(productos, id) {
     renderCarrito()
 }
 
-function renderCarrito() {
-    const carrito = document.getElementById("carrito")
-    carrito.innerHTML = ""
-
-    carritoArray.forEach((producto, index) => {
-        const carritoDiv = document.createElement("div")
-        carritoDiv.classList.add("items__carrito")
-        carritoDiv.innerHTML = `
-        <img src="${producto.imagen}">
-            <div class="slider__product__info">
-                            <h2>${producto.titulo}</h2>
-                            <p>${producto.descripcion}</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$ ${producto.precio}</p>
-                        </div>
-        <button class="btn btn-danger" onclick="eliminarProducto(${index})">ELIMINAR</button>
-        `
-        carrito.appendChild(carritoDiv)
-
-    })
-    totalCarrito()
-}
-
-function totalCarrito() {
-    let total = 0
-    const totalCarrito = document.getElementById("total")
-
-    carritoArray.forEach((producto) => {
-        const preciosProducto = Number(producto.precio)
-        total = total + preciosProducto
-
-
-    })
-    totalCarrito.innerHTML = `
-        <p>Total AR$ ${total}</p>
-        <button class="btn__comprar" onclick="realizarCompra()">Comprar</button>
-        `
-}
-
-function eliminarProducto(index) {
-    carritoArray.splice(index, 1)
-    localStorage.setItem("carritoStorage", JSON.stringify(carritoArray))
-    renderCarrito()
-    totalCarrito()
-}
-
-function realizarCompra() {
-    localStorage.removeItem("carritoStorage")
-    carritoArray.length = 0
-    Swal.fire({
-        icon: 'success',
-        title: 'Su pedido fue procesado',
-        showClass: {
-            popup: 'animate__animated animate__fadeInDown'
-        },
-        hideClass: {
-            popup: 'animate__animated animate__fadeOutUp'
-        }
-    })
-    renderCarrito()
-    totalCarrito()
-}

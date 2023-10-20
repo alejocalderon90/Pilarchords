@@ -73,7 +73,7 @@
     },
     {
         "id": "22",
-        "imagen": "../img-guitarras/astonreed6.webp",
+        "imagen": "./img-guitarras/astonreed6.webp",
         "titulo": "ASTON REED",
         "descripcion": "Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Marrón",
         "clase": "CON FUNDA",
