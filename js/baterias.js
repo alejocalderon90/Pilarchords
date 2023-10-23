@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 async function traerBaterias() {
-    const resp = await fetch("../baterias.json")
+    const resp = await fetch("./baterias.json")
     const baterias = await resp.json()
     renderBaterias(baterias)
 }

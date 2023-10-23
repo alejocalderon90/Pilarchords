@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 async function traerProductosGuitarras() {
-    const resp = await fetch("../guitarras.json")
+    const resp = await fetch("./guitarras.json")
     const prods = await resp.json()
     renderProductosGuitarras(prods)
 }

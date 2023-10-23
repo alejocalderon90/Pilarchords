@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 async function traerUkeleles() {
-    const resp = await fetch("../ukeleles.json")
+    const resp = await fetch("./ukeleles.json")
     const ukeleles = await resp.json()
     renderUkeleles(ukeleles)
 }
