@@ -1,84 +1,84 @@
 [
     {
         "id": "1",
-        "imagen": "../img/215.webp",
+        "imagen": "./img/215.webp",
         "titulo": "SHURE",
         "descripcion": "Auricular Intraural Shure Se215 Clear Con Cable Removible",
         "precio": "17300"
     },
     {
         "id": "2",
-        "imagen": "../img/plug.webp",
+        "imagen": "./img/plug.webp",
         "titulo": "MOOER",
         "descripcion": "Plug Jack Doble Recto Mooer Pc-c Desfazado Conector",
         "precio": "10500"
     },
     {
         "id": "3",
-        "imagen": "../img/esp.webp",
+        "imagen": "./img/esp.webp",
         "titulo": "ESP",
         "descripcion": "Guitarra Eléctrica Esp Modelo Ec256 Mastil Encolado",
         "precio": "133000"
     },
     {
         "id": "4",
-        "imagen": "../img/teclado.webp",
+        "imagen": "./img/teclado.webp",
         "titulo": "CME",
         "descripcion": "Teclado Controlador Midi Cme Xkey 25 Notas Sensitivas Gold",
         "precio": "170000"
     },
     {
         "id": "5",
-        "imagen": "../img/encordado.webp",
+        "imagen": "./img/encordado.webp",
         "titulo": "FENDER SPA",
         "descripcion": "Encordado Fender 250L Para Guitarra Eléctrica 009-.042 Ball End - 309",
         "precio": "12000"
     },
     {
         "id": "6",
-        "imagen": "../img/correa.webp",
+        "imagen": "./img/correa.webp",
         "titulo": "FENDER CORREA",
         "descripcion": "Correa Fender Spa Negra De Polyester Reforzada Bajo Y Guit.",
         "precio": "6000"
     },
     {
         "id": "7",
-        "imagen": "../img/pedal-mooer-blanco.webp",
+        "imagen": "./img/pedal-mooer-blanco.webp",
         "titulo": "MOOER DELAY",
         "descripcion": "Micro Pedal De Efecto Mooer Reecho Delay Para Guitarra Elect",
         "precio": "16000"
     },
     {
         "id": "8",
-        "imagen": "../img/pedal-hartke.webp",
+        "imagen": "./img/pedal-hartke.webp",
         "titulo": "BASS LOOPER HARTKE",
         "descripcion": "Pedal Hartke Hl77 Bass Looper 99 Bancos Memoria 6 Hrs Usb",
         "precio": "25000"
     },
     {
         "id": "9",
-        "imagen": "../img/pedal-mooer.webp",
+        "imagen": "./img/pedal-mooer.webp",
         "titulo": "MOOER EQUALIZER",
         "descripcion": "Pedal Mooer Graphic G Equalizador Para Guitarra Level Control True Bypass",
         "precio": "17000"
     },
     {
         "id": "10",
-        "imagen": "../img/ukelele.webp",
+        "imagen": "./img/ukelele.webp",
         "titulo": "UKELELE MAHALO",
         "descripcion": "Ukelele Soprano Mahalo U-smile Series Smile Con Funda Original Cuerpo De Sengon Cuerdas Aquila Ideal Estudio Laqueado",
         "precio": "30000"
     },
     {
         "id": "11",
-        "imagen": "../img/mic.webp",
+        "imagen": "./img/mic.webp",
         "titulo": "SHURE",
         "descripcion": "Microfono De Vincha Para Aplicaciones Deportivas Fitness Materiales Resistentes Al Agua Shure Sm31",
         "precio": "6000"
     },
     {
         "id": "12",
-        "imagen": "../img/condenser.webp",
+        "imagen": "./img/condenser.webp",
         "titulo": "SAMSON",
         "descripcion": "Micrófono Condenser Samson Gm1upro GM1UPRO G-tracking Interfase entrada USB Negro",
         "precio": "37000"
