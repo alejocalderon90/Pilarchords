@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script defer src="../js/ukeleles.js"></script>
-    <script defer src="../js/carrito.js"></script>
+    <script defer src="./js/ukeleles.js"></script>
+    <script defer src="./js/carrito.js"></script>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,309 +38,308 @@
             </div>
         </div>
 
-            <nav class="header__nav">
-                <ul class="header__nav__ul">
-                    <div class="header__nav__ul__container">
-                        <li class="header__nav__ul__container__logo">
-                            <a class="logo__color" href="index.html">PILAR CHORDS</a>
-                        </li>
-                    </div>
-                    <div class="user__container">
-                        <li class="user__container__li">
-                            <button class="user__container__li__button" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Mi
-                                carrito<svg class="user__container__li__button__svg" xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                </svg></button>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <div class="header__nav__ul__container">
+                    <li class="header__nav__ul__container__logo">
+                        <a class="logo__color" href="./index.html">PILAR CHORDS</a>
+                    </li>
+                </div>
+                <div class="user__container">
+                    <li class="user__container__li">
+                        <button class="user__container__li__button" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Mi
+                            carrito<svg class="user__container__li__button__svg" xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg></button>
 
-                            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
-                                id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CARRITO
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div id="carrito" class="offcanvas-body">
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">CARRITO
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div id="carrito" class="offcanvas-body">
 
-                                </div>
-                                <div id="total" class="total">
+                            </div>
+                            <div id="total" class="total">
 
-                                </div>
-                            </div>
-                        </li>
-                        <li class="account">
-                            <div class="account__div">
-                                <button class="account__div__signup">
-                                    <a class="account__link__signup" href="">Registrate</a>
-                                </button>
-                            </div>
-                            <div class="account__div">
-                                <button class="account__div__login">
-                                    <a class="account__link__login" href="">Iniciar sesión</a>
-                                </button>
-                            </div>
-                        </li>
-                    </div>
-                    <div class="menu__container">
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    GUITARRISTAS & BAJISTAS
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="guitarras-electricas.html">Guitarras
-                                            Eléctricas</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Guitarras Criollas</a></li>
-                                    <li><a class="dropdown-item" href="#">Guitarras Acústicas</a></li>
-                                    <li><a class="dropdown-item" href="#">Amplificadores Para Guitarra</a></li>
-                                    <li><a class="dropdown-item" href="#">Pedales & Efectos</a></li>
-                                    <li><a class="dropdown-item" href="#">Bajos</a></li>
-                                    <li><a class="dropdown-item" href="#">Amplificadores Para Bajo</a></li>
-                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">UKELELES
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="ukelele.html">Ukeleles</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    BATERISTAS & PERCUCIONISTAS
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="baterias-acusticas.html">Baterias Acústicas</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Percusión</a></li>
-                                    <li><a class="dropdown-item" href="#">Baterias Eléctricas</a></li>
-                                    <li><a class="dropdown-item" href="#">Platillos</a></li>
-                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    TECLADISTAS
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Pianos</a></li>
-                                    <li><a class="dropdown-item" href="#">Samplers</a></li>
-                                    <li><a class="dropdown-item" href="#">Sintetizadores</a></li>
-                                    <li><a class="dropdown-item" href="#">Teclados & Arrangers</a></li>
-                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    INSTRUMENTOS DE VIENTO
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Armónicas</a></li>
-                                    <li><a class="dropdown-item" href="#">Clarinetes</a></li>
-                                    <li><a class="dropdown-item" href="#">Flautas Escolares</a></li>
-                                    <li><a class="dropdown-item" href="#">Flautas Traversas</a></li>
-                                    <li><a class="dropdown-item" href="#">Saxofones</a></li>
-                                    <li><a class="dropdown-item" href="#">Trompetas</a></li>
-                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="navlistdropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    ESTUDIO & GRABACIÓN
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Consolas</a></li>
-                                    <li><a class="dropdown-item" href="#">Auriculares</a></li>
-                                    <li><a class="dropdown-item" href="#">Interfaces de audio</a></li>
-                                    <li><a class="dropdown-item" href="#">Monitores de Estudio</a></li>
-                                    <li><a class="dropdown-item" href="#">Micrófonos</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </div>
-                </ul>
-            </nav>
-            <div class="secondary__menu">
-                <div class="navbar__toggler">
-                    <nav class="navbar bg-body-tertiary">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                <p>Categorías</p>
-                            </button>
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                                aria-labelledby="offcanvasNavbarLabel">
-                                <div class="offcanvas-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                    <ul class="navbar-nav pe-3">
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                    GUITARRISTAS & BAJISTAS
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item"
-                                                            href="guitarras-electricas.html">Guitarras Eléctricas</a>
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">Guitarras Criollas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Guitarras Acústicas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Amplificadores Para
-                                                            Guitarra</a>
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">Pedales & Efectos</a></li>
-                                                    <li><a class="dropdown-item" href="#">Bajos</a></li>
-                                                    <li><a class="dropdown-item" href="#">Amplificadores Para Bajo</a>
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">UKELELES
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item" href="ukelele.html">Ukeleles</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    BATERISTAS & PERCUCIONISTAS
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item"
-                                                            href="baterias-acusticas.html">Baterias
-                                                            Acústicas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Percusión</a></li>
-                                                    <li><a class="dropdown-item" href="#">Baterias Eléctricas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Platillos</a></li>
-                                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    TECLADISTAS
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item" href="#">Pianos</a></li>
-                                                    <li><a class="dropdown-item" href="#">Samplers</a></li>
-                                                    <li><a class="dropdown-item" href="#">Sintetizadores</a></li>
-                                                    <li><a class="dropdown-item" href="#">Teclados & Arrangers</a></li>
-                                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    INSTRUMENTOS DE VIENTO
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item" href="#">Armónicas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Clarinetes</a></li>
-                                                    <li><a class="dropdown-item" href="#">Flautas Escolares</a></li>
-                                                    <li><a class="dropdown-item" href="#">Flautas Traversas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Saxofones</a></li>
-                                                    <li><a class="dropdown-item" href="#">Trompetas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="navlistdropdown2">
-                                            <div class="dropdown2">
-                                                <button class="btn2 btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    ESTUDIO & GRABACIÓN
-                                                </button>
-                                                <ul class="dropdown-menu2">
-                                                    <li><a class="dropdown-item" href="#">Consolas</a></li>
-                                                    <li><a class="dropdown-item" href="#">Auriculares</a></li>
-                                                    <li><a class="dropdown-item" href="#">Interfaces de audio</a></li>
-                                                    <li><a class="dropdown-item" href="#">Monitores de Estudio</a></li>
-                                                    <li><a class="dropdown-item" href="#">Micrófonos</a></li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
-                    </nav>
+                    </li>
+                    <li class="account">
+                        <div class="account__div">
+                            <button class="account__div__signup">
+                                <a class="account__link__signup" href="">Registrate</a>
+                            </button>
+                        </div>
+                        <div class="account__div">
+                            <button class="account__div__login">
+                                <a class="account__link__login" href="">Iniciar sesión</a>
+                            </button>
+                        </div>
+                    </li>
                 </div>
-                <div class="search__container">
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn__search btn-outline-success" type="submit">BUSCAR</button>
-                    </form>
+                <div class="menu__container">
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="true">
+                                GUITARRISTAS & BAJISTAS
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./guitarras-electricas.html">Guitarras
+                                        Eléctricas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Guitarras Criollas</a></li>
+                                <li><a class="dropdown-item" href="#">Guitarras Acústicas</a></li>
+                                <li><a class="dropdown-item" href="#">Amplificadores Para Guitarra</a></li>
+                                <li><a class="dropdown-item" href="#">Pedales & Efectos</a></li>
+                                <li><a class="dropdown-item" href="#">Bajos</a></li>
+                                <li><a class="dropdown-item" href="#">Amplificadores Para Bajo</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">UKELELES
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./ukelele.html">Ukeleles</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BATERISTAS & PERCUCIONISTAS
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./baterias-acusticas.html">Baterias Acústicas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Percusión</a></li>
+                                <li><a class="dropdown-item" href="#">Baterias Eléctricas</a></li>
+                                <li><a class="dropdown-item" href="#">Platillos</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TECLADISTAS
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pianos</a></li>
+                                <li><a class="dropdown-item" href="#">Samplers</a></li>
+                                <li><a class="dropdown-item" href="#">Sintetizadores</a></li>
+                                <li><a class="dropdown-item" href="#">Teclados & Arrangers</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                INSTRUMENTOS DE VIENTO
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Armónicas</a></li>
+                                <li><a class="dropdown-item" href="#">Clarinetes</a></li>
+                                <li><a class="dropdown-item" href="#">Flautas Escolares</a></li>
+                                <li><a class="dropdown-item" href="#">Flautas Traversas</a></li>
+                                <li><a class="dropdown-item" href="#">Saxofones</a></li>
+                                <li><a class="dropdown-item" href="#">Trompetas</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navlistdropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ESTUDIO & GRABACIÓN
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Consolas</a></li>
+                                <li><a class="dropdown-item" href="#">Auriculares</a></li>
+                                <li><a class="dropdown-item" href="#">Interfaces de audio</a></li>
+                                <li><a class="dropdown-item" href="#">Monitores de Estudio</a></li>
+                                <li><a class="dropdown-item" href="#">Micrófonos</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </div>
-                <div class="brand__container">
-                    <ul class="brand__container__ul">
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/HotSale-Logo-1.webp" alt=""></a>
-                        </li>
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/Logos-07.webp" alt=""></a>
-                        </li>
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/Logos-08.webp" alt=""></a>
-                        </li>
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/Gravity-Web.webp" alt=""></a>
-                        </li>
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/casio.webp" alt=""></a>
-                        </li>
-                        <li class="brand__container__ul__li">
-                            <a href=""><img class="brand__item" src="../img/shure.webp" alt=""></a>
-                        </li>
-                    </ul>
-                </div>
+            </ul>
+        </nav>
+        <div class="secondary__menu">
+            <div class="navbar__toggler">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <p>Categorías</p>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav pe-3">
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                GUITARRISTAS & BAJISTAS
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item"
+                                                        href="./guitarras-electricas.html">Guitarras Eléctricas</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Guitarras Criollas</a></li>
+                                                <li><a class="dropdown-item" href="#">Guitarras Acústicas</a></li>
+                                                <li><a class="dropdown-item" href="#">Amplificadores Para
+                                                        Guitarra</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Pedales & Efectos</a></li>
+                                                <li><a class="dropdown-item" href="#">Bajos</a></li>
+                                                <li><a class="dropdown-item" href="#">Amplificadores Para Bajo</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">UKELELES
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item" href="./ukelele.html">Ukeleles</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                BATERISTAS & PERCUCIONISTAS
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item" href="./baterias-acusticas.html">Baterias
+                                                        Acústicas</a></li>
+                                                <li><a class="dropdown-item" href="#">Percusión</a></li>
+                                                <li><a class="dropdown-item" href="#">Baterias Eléctricas</a></li>
+                                                <li><a class="dropdown-item" href="#">Platillos</a></li>
+                                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                TECLADISTAS
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item" href="#">Pianos</a></li>
+                                                <li><a class="dropdown-item" href="#">Samplers</a></li>
+                                                <li><a class="dropdown-item" href="#">Sintetizadores</a></li>
+                                                <li><a class="dropdown-item" href="#">Teclados & Arrangers</a></li>
+                                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                INSTRUMENTOS DE VIENTO
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item" href="#">Armónicas</a></li>
+                                                <li><a class="dropdown-item" href="#">Clarinetes</a></li>
+                                                <li><a class="dropdown-item" href="#">Flautas Escolares</a></li>
+                                                <li><a class="dropdown-item" href="#">Flautas Traversas</a></li>
+                                                <li><a class="dropdown-item" href="#">Saxofones</a></li>
+                                                <li><a class="dropdown-item" href="#">Trompetas</a></li>
+                                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="navlistdropdown2">
+                                        <div class="dropdown2">
+                                            <button class="btn2 btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                ESTUDIO & GRABACIÓN
+                                            </button>
+                                            <ul class="dropdown-menu2">
+                                                <li><a class="dropdown-item" href="#">Consolas</a></li>
+                                                <li><a class="dropdown-item" href="#">Auriculares</a></li>
+                                                <li><a class="dropdown-item" href="#">Interfaces de audio</a></li>
+                                                <li><a class="dropdown-item" href="#">Monitores de Estudio</a></li>
+                                                <li><a class="dropdown-item" href="#">Micrófonos</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
+            <div class="search__container">
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn__search btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+            </div>
+            <div class="brand__container">
+                <ul class="brand__container__ul">
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/HotSale-Logo-1.webp" alt=""></a>
+                    </li>
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/Logos-07.webp" alt=""></a>
+                    </li>
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/Logos-08.webp" alt=""></a>
+                    </li>
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/Gravity-Web.webp" alt=""></a>
+                    </li>
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/casio.webp" alt=""></a>
+                    </li>
+                    <li class="brand__container__ul__li">
+                        <a href=""><img class="brand__item" src="./img/shure.webp" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <div class="crumbs">
         <div class="crumbs__container">
             <ul class="crumbs__container__ul">
                 <li class="crumbs__container__ul__li">
-                    <a class="crumbs__container__ul__li__link" href="index.html">Pilar Chords</a>
+                    <a class="crumbs__container__ul__li__link" href="./index.html">Pilar Chords</a>
                 </li>
                 <li>
                     <a class="crumbs__container__ul__li__link breadcrumb-item active" aria-current="page"
-                        href="ukelele.html">Ukeleles</a>
+                        href="./ukelele.html">Ukeleles</a>
                 </li>
             </ul>
         </div>
@@ -413,311 +412,10 @@
             </div>
             <div class="product__container__div__product">
                 <div id="contenedorDeUkeleles" class="product__container__div__product__flex">
-                    <!-- <div class="product__div">
-                        <a href=""><img src="./img-guitarras/makala1.webp" alt="Epiphone cherry caoba hollow body"></a>
-                        <div class="slider__product__info">
-                            <h2>MAKALA</h2>
-                            <p>Ukelele Electroacústico Soprano Makala By Kala Mk-se con equalizador color Marrón</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$54.200</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/garcia1.webp" alt="Epiphone Les Paul dorada"></a>
-                            <h2>GARCIA</h2>
-                            <p>Ukelele Soprano Gracia Tapa Caoba Colores Cedro Rosa</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$48.000</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/garcia2.webp" alt="Epiphone Les Paul Standard"></a>
-                            <h2>GARCIA</h2>
-                            <p>Ukelele Soprano Gracia Tapa Caoba Colores Cedro Celeste</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$48.000</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/makala2.webp" alt="Epiphone Les Paul Alpine White"></a>
-                            <h2>MAKALA</h2>
-                            <p>Ukelele Makala Concierto Pack. Mk-c/pack Caoba</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$69.400</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed1.webp"
-                                    alt="Fender Stratocaster Sunburst"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Bajo Ukelele Aston Reed AUB07L-EA Cuerdas Aquila Caoba Con Funda</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$147.000</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed2.webp" alt="Fender Telecaster Blue"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Ukelele Soprano Aston Reed AU50L-21 Cuerdas Aquila Koa Con Funda</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$40.300</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed3.webp" alt="Fender Telecaster red"></a>
-                            <h2>ASTON REED</h2>
-                            <P>Ukelele Soprano Aston Reed AU07-21 Cuerdas Aquila Caoba Con Funda</P>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$31.450</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed4.webp" alt="Epiphone Les Paul SG Black"></a>
-                            <h2>ASTON REED</h2>
-                            <P>Ukelele Soprano Aston Reed AU006L-21 Ideal Estudio Con Funda - Rojo Vino</P>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$20.780</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed5.webp" alt="Epiphone Les Paul SG Red"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Ukelele Soprano Aston Reed AU006L-21 Ideal Estudio Con Funda - Marrón</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$20.780</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed6.webp"
-                                    alt="Epiphone Les Paul SG Ice Blue"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Marrón</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$18.250</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed7.webp"
-                                    alt="Jay Turser Stratocaster Natural"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Rojo</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$18.250</p>
-                        </div>
-                    </div>
-                    <div class="product__div">
-                        <div class="slider__product__info">
-                            <a href=""><img src="./img-guitarras/astonreed8.webp" alt="Squier Affinity Metallic"></a>
-                            <h2>ASTON REED</h2>
-                            <p>Ukelele Soprano Aston Reed AU-P01 Ideal Estudio Varios Colores Con Funda - Verde</p>
-                        </div>
-                        <div class="slider__product__info__precio">
-                            <p>Precio:</p>
-                            <p class="slider__product__info__precio__color">$18.250</p>
-                        </div>
-                    </div> -->
-                    <div class="product__pages">
-                        <nav class="product__pages__nav">
-                            <ul class="pagination__ul">
-                                <li class="pagination__ul__p">
-                                    <p class="pagination__ul__list__prev">Previous</p>
-                                </li>
-                                <li class="pagination__ul__list">
-                                    <a class="pagination__ul__list__1" href="./ukelele.html">1</a>
-                                </li>
-                                <li class="pagination__ul__list">
-                                    <a class="pagination__ul__list__number" href="./ukelele-2.html">2</a>
-                                </li>
-                                <li class="pagination__ul__list">
-                                    <a class="pagination__ul__list__number" href="./ukelele-3.html">3</a>
-                                </li>
-                                <li class="pagination__ul__list">
-                                    <a class="pagination__ul__list__next" href="./ukelele-2.html">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div class="recomendados">
-        <h2>RECOMENDADOS</h2>
-    </div>
-    <div class="slider__container">
-        <div class="slider">
-            <div class="slider__product">
-                <a href=""><img src="../img/215.webp" alt="Auricular Shure Se215"></a>
-                <div class="slider__product__info">
-                    <h2>SHURE</h2>
-                    <p>Auricular Intraural Shure Se215 Clear Con Cable Removible</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$17.300</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/plug.webp" alt="Plug Mooer"></a>
-                    <h2>MOOER</h2>
-                    <p>Plug Jack Doble Recto Mooer Pc-c Desfazado Conector</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$10.500</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/esp.webp" alt="Guitarra Electrica ESP"></a>
-                    <h2>ESP</h2>
-                    <p>Guitarra Eléctrica Esp Modelo Ec256 Mastil Encolado</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$133.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/teclado.webp" alt="Teclado controlador Midi"></a>
-                    <h2>CME</h2>
-                    <p>Teclado Controlador Midi Cme Xkey 25 Notas Sensitivas Gold</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$170.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/encordado.webp" alt="Encordado Fender 250L"></a>
-                    <h2>FENDER SPA</h2>
-                    <p>Encordado Fender 250L Para Guitarra Eléctrica 009-.042 Ball End - 309</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$12.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/correa.webp" alt="Correa Fender negra polyester"></a>
-                    <h2>FENDER CORREA</h2>
-                    <p>Correa Fender Spa Negra De Polyester Reforzada Bajo Y Guit.</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$6.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/pedal-mooer-blanco.webp" alt="Mooer Delay"></a>
-                    <h2>MOOER DELAY</h2>
-                    <P>Micro Pedal De Efecto Mooer Reecho Delay Para Guitarra Elect</P>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$16.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/pedal-hartke.webp" alt="Pedal Hartke Bass Looper"></a>
-                    <h2>BASS LOOPER HARTKE</h2>
-                    <P>Pedal Hartke Hl77 Bass Looper 99 Bancos Memoria 6 Hrs Usb</P>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$25.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/pedal-mooer.webp" alt="Pedal Mooer Equalizador"></a>
-                    <h2>MOOER EQUALIZER</h2>
-                    <p>Pedal Mooer Graphic G Equalizador Para Guitarra Level Control True Bypass</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$17.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/ukelele.webp" alt="Ukelele Soprano Mahalo"></a>
-                    <h2>UKELELE MAHALO</h2>
-                    <p>Ukelele Soprano Mahalo U-smile Series Smile Con Funda Original Cuerpo De Sengon Cuerdas Aquila
-                        Ideal
-                        Estudio Laqueado</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$30.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/mic.webp" alt="Microfono de vincha Shure"></a>
-                    <h2>SHURE</h2>
-                    <p>Microfono De Vincha Para Aplicaciones Deportivas Fitness Materiales Resistentes Al Agua Shure
-                        Sm31
-                    </p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$6.000</p>
-                </div>
-            </div>
-            <div class="slider__product">
-                <div class="slider__product__info">
-                    <a href=""><img src="../img/condenser.webp" alt="Micrófono condender Samson"></a>
-                    <h2>SAMSON</h2>
-                    <p>Micrófono Condenser Samson Gm1upro GM1UPRO G-tracking Interfase entrada USB Negro</p>
-                </div>
-                <div class="slider__product__info__precio">
-                    <p>Precio:</p>
-                    <p class="slider__product__info__precio__color">$37.000</p>
-                </div>
-            </div>
-        </div>
-        <button class="prev-button">
-            < </button>
-                <button class="next-button"> > </button>
     </div>
 
     <footer class="footer">
