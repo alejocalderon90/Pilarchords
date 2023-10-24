@@ -9,10 +9,10 @@ prevButton.addEventListener("click", (prev))
 nextButton.addEventListener("click", (next))
 
 function prev() {
-    sliderContainer.style.transform = `translateX(${sliderIndex * 100}%)`
+    sliderContainer.style.transform = `translateX(${sliderIndex * 50}%)`
 }
 
 function next() {
-    sliderContainer.style.transform = `translateX(-${sliderIndex * 100}%)`
+    sliderContainer.style.transform = `translateX(-${sliderIndex * 50}%)`
 }
 
